@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev-vite": "vite",
-    "dev": "tsx watch src/server",
+    "dev": "vite",
+    "dev-node": "tsx watch src/server",
     "start": "node dist/server/",
     "build": "tsc && vite build && tsc -p tsconfig.server.json",
     "preview": "vite preview"
